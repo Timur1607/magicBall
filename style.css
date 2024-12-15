@@ -53,7 +53,7 @@
   transform: translateX(-50%) translateY(-50%);
 }
 .game__text {
-  max-width: 375px;
+  max-width: 335px;
   width: 100%;
   color: #FFF;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
@@ -71,6 +71,7 @@
   max-width: 335px;
   width: 100%;
   height: 36px;
+  padding-left: 6px;
   margin-bottom: 17px;
   border-radius: 6px;
   background: #FFF;

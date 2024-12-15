@@ -2,7 +2,7 @@ let arr = [' It is certain', 'It is decidedly so', 'Without a doubt', ' Yes — 
 let random = arr[Math.round(Math.random() * 14)];
 let text = document.querySelector('.text')
 let input = document.querySelector('.input')
-let quest = ['ты', 'вы']
+let quest = ['что', 'как', 'разве', 'неужели', 'а', 'да', 'правда', 'так', 'кто', 'что', 'какой', 'каков', 'чей', 'который', 'сколько', 'как', 'где', 'куда', 'откуда', 'докуда', 'когда', 'почему', 'отчего', 'зачем', 'насколько']
 let check = ''
 
 // console.log(random);
@@ -27,7 +27,7 @@ function sayRandom(){
         }
     }
 
-    if(check.length != input.value.split(' ').length * 2){
+    if(check.length === input.value.split(' ').length * 25){
         console.log(random);
         random = arr[Math.round(Math.random() * 14)];
         text.textContent = random
